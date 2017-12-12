@@ -30,3 +30,14 @@ If for whatever reason that command fails you can also get the key from:
 ```
 https://archive.mozilla.org/pub/firefox/releases/45.8.0esr/KEY
 ```
+
+Simply extract with ``unzip`` (or whatever your platform uses to extract zip files).
+
+To run on Linux you will need to set your ``LD_LIBRARY_PATH``
+```
+export LD_LIBRARY_PATH=${PWD}
+```
+
+and then just run ``./js``
+
+On windows you just run ``js.exe``
